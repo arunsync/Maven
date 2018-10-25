@@ -15,4 +15,13 @@ Commands to run the maven (you should be on the location where pom.xml is presen
   2. mvn compile
   3. mvn package
   
-  SNAPSHOT - version means, it is a initial version and it is stil under development
+  SNAPSHOT vs VERSION
+        SNAPSHOT
+               https://www.tutorialspoint.com/maven/maven_snapshots.htm
+  Scope
+        If we don't specify the scope in pom.xml, the default scope is compile
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+            </dependency>
