@@ -11,7 +11,8 @@
 3. Specify the build phase you need, previous phases automatically run.
 
 Commands to run the maven (you should be on the location where pom.xml is present)
-  1. mvn compile
-  2. mvn package
+  1. mvn clean (delete the )
+  2. mvn compile
+  3. mvn package
   
   SNAPSHOT - version means, it is a initial version and it is stil under development
